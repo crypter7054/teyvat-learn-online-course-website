@@ -34,7 +34,7 @@ class Course extends BaseController
         ];
 
         // tampilkan halaman
-        return view('courses', $data);
+        return view('user-side/courses', $data);
     }    
 
     // method detail
@@ -54,7 +54,7 @@ class Course extends BaseController
         // dd($data);
 
         // tampilkan halaman
-        return view('detail', $data);
+        return view('user-side/detail', $data);
     }   
 
     public function checkout()
@@ -71,7 +71,7 @@ class Course extends BaseController
         ];
 
         // tampilkan halaman
-        return view('payment', $data);
+        return view('user-side/payment', $data);
     }   
 }
 ?>

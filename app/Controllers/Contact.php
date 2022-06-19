@@ -28,7 +28,7 @@ class Contact extends BaseController
         ];
 
         // tampilkan halaman
-        return view('contact', $data);
+        return view('user-side/contact', $data);
     }
 
 }

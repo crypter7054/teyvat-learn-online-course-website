@@ -67,11 +67,21 @@ $routes->get('/user/profile/(:num)', 'User::displayProfile/$1');
 // $routes->get('/user/profile/(:num)/(:num)', 'User::displayProfile/$1/$1');
 $routes->get('/user/storePhoto', 'User::storePhoto');
 
-
-
 // routes profile
 $routes->get('/profile', 'Mahasiswa::displayProfile');
 $routes->get('dosen/profile_dosen/(:num)', 'Dosen::displayProfile/$1');
+
+// routes admin
+$routes->get('/admin', 'Admin::index');
+// $routes->get('/home', 'Admin::index');
+$routes->get('/login_admin', 'Admin::login');
+$routes->get('/process_admin', 'Admin::process_admin');
+$routes->get('/admin/create', 'Admin::create');
+$routes->get('/admin/account', 'Admin::account');
+$routes->get('/admin/save/(:num)', 'Admin::save/$1');
+$routes->get('/admin/delete/(:num)', 'Admin::delete/$1');
+$routes->get('/admin/update/(:num)', 'Admin::update/$1');
+$routes->get('/admin/logout', 'Admin::logout');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

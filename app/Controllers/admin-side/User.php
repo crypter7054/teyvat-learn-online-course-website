@@ -28,7 +28,7 @@ class User extends BaseController
         ];
 
         // tampilkan halaman
-        return view('user-side/profile_user', $data);
+        return view('profile_user', $data);
     }
 
     // method index
@@ -36,7 +36,7 @@ class User extends BaseController
     {
 
         // tampilkan halaman
-        return view('user-side/register');
+        return view('register');
     }
     
     // method index
@@ -44,7 +44,7 @@ class User extends BaseController
     {
 
         // tampilkan halaman
-        return view('user-side/login');
+        return view('login');
     }
 
 
@@ -113,7 +113,7 @@ class User extends BaseController
         ];
 
         // tampilkan halaman
-        return view('user-side/profile_user', $data);
+        return view('profile_user', $data);
     }   
 
 
@@ -131,11 +131,6 @@ class User extends BaseController
             $filename = $file->getName();
             $file->move('public/file', $filename);
         }
-
-        $fname = 'ini';
-        $lname = 'ini';
-        $password = 'ini';
-        $email = 'yos11@gmail.com';
 
         $data = [
 			'photo' => $filename,

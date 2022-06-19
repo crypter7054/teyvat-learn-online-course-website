@@ -38,7 +38,7 @@ class Home extends BaseController
         ];
 
         // tampilkan halaman
-        return view('home', $data);
+        return view('user-side/home', $data);
     }
 
 }

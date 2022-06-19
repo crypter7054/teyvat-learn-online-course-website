@@ -28,7 +28,7 @@ class About extends BaseController
         ];
 
         // tampilkan halaman
-        return view('about', $data);
+        return view('user-side/about', $data);
     }
 
 }
