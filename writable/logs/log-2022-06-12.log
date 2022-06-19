@@ -1,0 +1,362 @@
+CRITICAL - 2022-06-12 01:28:23 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 01:29:22 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 01:29:29 --> Undefined variable: nama
+in APPPATH\Controllers\Mahasiswa.php on line 43.
+ 1 APPPATH\Controllers\Mahasiswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama', 'APPPATH\\Controllers\\Mahasiswa.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->displayProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 01:31:25 --> Undefined variable: nama
+in APPPATH\Controllers\Mahasiswa.php on line 43.
+ 1 APPPATH\Controllers\Mahasiswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama', 'APPPATH\\Controllers\\Mahasiswa.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->displayProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 01:31:46 --> Undefined variable: nama
+in APPPATH\Controllers\Mahasiswa.php on line 43.
+ 1 APPPATH\Controllers\Mahasiswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama', 'APPPATH\\Controllers\\Mahasiswa.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->displayProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 01:32:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:07:57 --> syntax error, unexpected '<'
+in APPPATH\Views\mahasiswa.php on line 94.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('mahasiswa', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(30): view('mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:34:33 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:35:04 --> Illegal string offset 'kode_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'kode_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:35:35 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:35:44 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:36:39 --> Illegal string offset 'kode_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'kode_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:37:07 --> Illegal string offset 'kode_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'kode_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:38:20 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:38:33 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:39:13 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:39:33 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 62.
+ 1 APPPATH\Views\profile_dosen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:39:39 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 55.
+ 1 APPPATH\Views\profile_dosen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:39:53 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 10.
+ 1 APPPATH\Views\profile_dosen.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:22 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:57 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:58 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:58 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:58 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:41:59 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Dosen.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:42:08 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 10.
+ 1 APPPATH\Views\profile_dosen.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:43:15 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\profile_dosen.php on line 61.
+ 1 APPPATH\Views\profile_dosen.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'APPPATH\\Views\\profile_dosen.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 02:43:28 --> Undefined variable: row
+in APPPATH\Views\profile_dosen.php on line 61.
+ 1 APPPATH\Views\profile_dosen.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\profile_dosen.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile_dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('profile_dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->displayProfile('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:15:33 --> Undefined variable: krs
+in APPPATH\Views\home.php on line 159.
+ 1 APPPATH\Views\home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: krs', 'APPPATH\\Views\\home.php', 159, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(36): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:18:12 --> syntax error, unexpected ''krs'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Irs.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Irs.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Irs')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Irs')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Irs')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Irs', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-12 03:18:18 --> Not unique table/alias: 'irs'
+CRITICAL - 2022-06-12 03:18:18 --> Not unique table/alias: 'irs'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `irs`
+JOIN `irs` ON `krs`.`id_irs` = `irs`.`id_irs`
+JOIN `matkul` ON `matkul`.`id_matkul` = `irs`.`id_matkul`
+JOIN `dosen` ON `dosen`.`id_dosen` = `irs`.`id_dosen`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `irs`
+JOIN `irs` ON `krs`.`id_irs` = `irs`.`id_irs`
+JOIN `matkul` ON `matkul`.`id_matkul` = `irs`.`id_matkul`
+JOIN `dosen` ON `dosen`.`id_dosen` = `irs`.`id_dosen`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `irs`
+JOIN `irs` ON `krs`.`id_irs` = `irs`.`id_irs`
+JOIN `matkul` ON `matkul`.`id_matkul` = `irs`.`id_matkul`
+JOIN `dosen` ON `dosen`.`id_dosen` = `irs`.`id_dosen`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `irs`
+JOIN `irs` ON `krs`.`id_irs` = `irs`.`id_irs`
+JOIN `matkul` ON `matkul`.`id_matkul` = `irs`.`id_matkul`
+JOIN `dosen` ON `dosen`.`id_dosen` = `irs`.`id_dosen`', [], false)
+ 5 APPPATH\Models\irsModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Irs.php(31): App\Models\irsModel->getIrs()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:19:30 --> Undefined variable: krs
+in APPPATH\Views\home.php on line 159.
+ 1 APPPATH\Views\home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: krs', 'APPPATH\\Views\\home.php', 159, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(41): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:20:24 --> Undefined variable: krs
+in APPPATH\Views\home.php on line 159.
+ 1 APPPATH\Views\home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: krs', 'APPPATH\\Views\\home.php', 159, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(41): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:22:57 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\uas_web\app\Config\Routes.php on line 41
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(41): CodeIgniter\Router\RouteCollection->get('C:\\', 'Irs::index', 'Krs::index')
+ 2 SYSTEMPATH\CodeIgniter.php(760): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:24:53 --> Undefined variable: irs
+in APPPATH\Views\home.php on line 98.
+ 1 APPPATH\Views\home.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: irs', 'APPPATH\\Views\\home.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Krs.php(39): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Krs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 03:28:51 --> Undefined variable: krs
+in APPPATH\Views\home.php on line 159.
+ 1 APPPATH\Views\home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: krs', 'APPPATH\\Views\\home.php', 159, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(36): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

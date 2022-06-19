@@ -1,0 +1,636 @@
+CRITICAL - 2022-06-10 02:05:49 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 02:05:49 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 03:14:45 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 03:14:45 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 03:14:57 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 03:15:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Investor.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Investor->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 03:16:25 --> Class 'App\Models\NewsModel' not found
+in APPPATH\Controllers\Investor.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Investor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 16:36:34 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:36:54 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:40:55 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:41:35 --> Class 'App\Models\DosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:41:39 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:43:37 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:43:43 --> Class 'App\Models\dosenModel' not found
+in APPPATH\Controllers\Dosen.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dosen->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:47:36 --> Undefined variable: i
+in APPPATH\Views\dosen.php on line 91.
+ 1 APPPATH\Views\dosen.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Views\\dosen.php', 91, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(30): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:48:15 --> Undefined variable: i
+in APPPATH\Views\dosen.php on line 90.
+ 1 APPPATH\Views\dosen.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Views\\dosen.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(30): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 16:54:56 --> Class 'App\Controllers\matkulModel' not found
+in APPPATH\Controllers\Matkul.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Matkul->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:08:07 --> Class 'App\Controllers\irsModel' not found
+in APPPATH\Controllers\Irs.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\irs->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:08:56 --> Class 'App\Controllers\irsModel' not found
+in APPPATH\Controllers\Irs.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\irs->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:09:34 --> Invalid file: irs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('irs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('irs', [], true)
+ 3 APPPATH\Controllers\Irs.php(30): view('irs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\irs->view()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\irs))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:09:46 --> Invalid file: irs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('irs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('irs', [], true)
+ 3 APPPATH\Controllers\Irs.php(30): view('irs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\irs->view()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\irs))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:10:20 --> Invalid file: irs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('irs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('irs', [], true)
+ 3 APPPATH\Controllers\Irs.php(30): view('irs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\irs->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\irs))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:10:34 --> Invalid file: irs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('irs.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('irs', [], true)
+ 3 APPPATH\Controllers\Irs.php(30): view('irs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:11:29 --> Undefined index: kode_matkul
+in APPPATH\Views\home.php on line 96.
+ 1 APPPATH\Views\home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kode_matkul', 'APPPATH\\Views\\home.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(30): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:18:27 --> Undefined index: kode_matkul
+in APPPATH\Views\home.php on line 96.
+ 1 APPPATH\Views\home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kode_matkul', 'APPPATH\\Views\\home.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(41): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 17:19:34 --> Undefined index: nama_dosen
+in APPPATH\Views\home.php on line 97.
+ 1 APPPATH\Views\home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_dosen', 'APPPATH\\Views\\home.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(41): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:35:30 --> Undefined variable: matkul
+in APPPATH\Controllers\Irs.php on line 35.
+ 1 APPPATH\Controllers\Irs.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: matkul', 'APPPATH\\Controllers\\Irs.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:35:51 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Irs.php(39): view('home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:36:32 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Irs.php(39): view('home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:43:15 --> Undefined variable: all
+in APPPATH\Views\home.php on line 93.
+ 1 APPPATH\Views\home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all', 'APPPATH\\Views\\home.php', 93, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:43:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:43:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:55:16 --> Undefined variable: irs
+in APPPATH\Views\home.php on line 93.
+ 1 APPPATH\Views\home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: irs', 'APPPATH\\Views\\home.php', 93, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:55:56 --> Undefined index: nama_matkul
+in APPPATH\Views\home.php on line 97.
+ 1 APPPATH\Views\home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_matkul', 'APPPATH\\Views\\home.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:56:40 --> Undefined index: nama
+in APPPATH\Views\home.php on line 97.
+ 1 APPPATH\Views\home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\home.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Irs.php(40): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Irs->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Irs))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:57:42 --> Undefined index: nama
+in APPPATH\Views\dosen.php on line 92.
+ 1 APPPATH\Views\dosen.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\dosen.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(30): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 18:57:50 --> Undefined index: nama
+in APPPATH\Views\dosen.php on line 92.
+ 1 APPPATH\Views\dosen.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\dosen.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(30): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 19:53:43 --> Invalid file: form_mahasiswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_mahasiswa', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(36): view('form_mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->create()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:13:09 --> Call to a member function db_connect() on null
+in APPPATH\Controllers\BaseController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:30:23 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Controllers\Dosen.php(53): CodeIgniter\Model->insert([])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:37:14 --> Undefined variable: id_dosen
+in APPPATH\Controllers\Dosen.php on line 58.
+ 1 APPPATH\Controllers\Dosen.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_dosen', 'APPPATH\\Controllers\\Dosen.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:39:29 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+in APPPATH\Controllers\Dosen.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Dosen.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dosen')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dosen')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Dosen')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Dosen', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:39:33 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+in APPPATH\Controllers\Dosen.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Dosen.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dosen')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dosen')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Dosen')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Dosen', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:39:43 --> Undefined index: email
+in APPPATH\Views\dosen.php on line 94.
+ 1 APPPATH\Views\dosen.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Views\\dosen.php', 94, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(30): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->view()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:40:15 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:40:15 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Dosen.php(60): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:40:18 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:40:18 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Dosen.php(60): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:40:59 --> Call to undefined method App\Models\dosenModel::saveDosen
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Dosen.php(60): CodeIgniter\Model->__call('saveDosen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:41:13 --> Call to undefined method App\Models\dosenModel::saveDosen
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Dosen.php(60): CodeIgniter\Model->__call('saveDosen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-10 20:41:24 --> Allowed fields must be specified for model: App\Models\dosenModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\dosenModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:41:30 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:41:30 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:41:55 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:41:55 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:42:30 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:42:30 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:43:03 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:43:03 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:49:32 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:49:32 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:50:54 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:50:54 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:50:57 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:50:57 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:51:26 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:51:26 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:52:05 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:52:05 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-10 20:52:34 --> Column 'kode_dosen' cannot be null
+CRITICAL - 2022-06-10 20:52:34 --> Column 'kode_dosen' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dosen` (`kode_dosen`, `nama_dosen`, `nidn`, `email_dosen`) VALUES (:kode_dosen:, :nama_dosen:, :nidn:, :email_dosen:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\dosenModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dosen.php(60): App\Models\dosenModel->saveDosen([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dosen->create()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

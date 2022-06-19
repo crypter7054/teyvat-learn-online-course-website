@@ -1,0 +1,170 @@
+CRITICAL - 2022-06-13 19:36:20 --> Invalid file: course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('course.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('course', [], true)
+ 3 APPPATH\Controllers\Course.php(30): view('course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 19:42:32 --> Invalid file: course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('course.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('course', [], true)
+ 3 APPPATH\Controllers\Course.php(30): view('course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 19:42:56 --> Undefined index: id_photo
+in APPPATH\Views\courses.php on line 129.
+ 1 APPPATH\Views\courses.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_photo', 'APPPATH\\Views\\courses.php', 129, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\courses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 5 APPPATH\Controllers\Course.php(30): view('courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 19:54:03 --> Undefined variable: 350
+in APPPATH\Views\courses.php on line 148.
+ 1 APPPATH\Views\courses.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 350', 'APPPATH\\Views\\courses.php', 148, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\courses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 5 APPPATH\Controllers\Course.php(30): view('courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 19:54:15 --> Undefined variable: 350
+in APPPATH\Views\courses.php on line 148.
+ 1 APPPATH\Views\courses.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 350', 'APPPATH\\Views\\courses.php', 148, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\courses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 5 APPPATH\Controllers\Course.php(30): view('courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 19:54:19 --> Undefined variable: 350
+in APPPATH\Views\courses.php on line 148.
+ 1 APPPATH\Views\courses.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 350', 'APPPATH\\Views\\courses.php', 148, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\courses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 5 APPPATH\Controllers\Course.php(30): view('courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 20:06:09 --> Invalid file: course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('course.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('course', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 20:57:57 --> Class 'App\Models\userModel' not found
+in APPPATH\Controllers\User.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-13 20:58:35 --> Column 'email' cannot be null
+CRITICAL - 2022-06-13 20:58:35 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (:fname:, :lname:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\userModel.php(26): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\User.php(48): App\Models\userModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-13 20:59:15 --> Column 'email' cannot be null
+CRITICAL - 2022-06-13 20:59:15 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (\'Yosafat\', \'.\', NULL, \'123\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`fname`, `lname`, `email`, `password`) VALUES (:fname:, :lname:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\userModel.php(26): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\User.php(48): App\Models\userModel->saveUser([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 21:05:59 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\tubes_web')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\User.php(53): redirect('http://localhost/tubes_web/home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 21:06:32 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\tubes_web')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\User.php(53): redirect('http://localhost/tubes_web')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-13 21:11:27 --> Table 'db_tubes.mahasiswa' doesn't exist
+CRITICAL - 2022-06-13 21:11:27 --> Table 'db_tubes.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Mahasiswa->displayProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 21:12:13 --> Undefined variable: course
+in APPPATH\Views\home.php on line 157.
+ 1 APPPATH\Views\home.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\home.php', 157, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\User.php(53): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 21:13:21 --> Undefined variable: course
+in APPPATH\Views\home.php on line 157.
+ 1 APPPATH\Views\home.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\home.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\User.php(53): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 23:39:01 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Helpers\filesystem_helper.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
