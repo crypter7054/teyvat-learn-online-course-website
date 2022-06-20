@@ -39,7 +39,7 @@
           <div class="flex items-center justify-between py-5">
             
             <!-- LOGO -->
-            <a href="<?php echo base_url() ?>/home" class="group flex flex-row items-center py-1">
+            <a href="<?php echo base_url() ?>/admin/home" class="group flex flex-row items-center py-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-500 group-hover:animate-spin" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M17.293     13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                 </svg>
@@ -59,8 +59,8 @@
                   <div x-show="open" class="absolute bg-white mt-2 pb-6 border-b items-center rounded-md shadow-lg w-auto" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" >
                     <!-- MENU ITEM -->
                     <div class="px-4 py-4 flex flex-col space-y-2 bg-white rounded-md shadow-sm">
-                    <a href="<?php echo base_url() ?>/home" class="text-sky-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Courses</a>
-                      <a href="<?php echo base_url() ?>/course" class="text-gray-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Account</a>
+                    <a href="<?php echo base_url() ?>/admin/home" class="text-sky-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Courses</a>
+                      <a href="<?php echo base_url() ?>/admin/course" class="text-gray-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Account</a>
                     </div>
                     <!-- END OF MENU ITEM -->
                     
@@ -83,7 +83,7 @@
     <div class="flex flex-row h-full">
         <!-- SIDEBAR -->
         <div class="hidden sm:flex flex-col bg-sky-600 w-1/6 -m-2 shadow-lg absurd">
-            <a href="<?php echo base_url() ?>/home" class="flex flex-row items-center justify-center space-x-2 py-8">
+            <a href="<?php echo base_url() ?>/admin/home" class="flex flex-row items-center justify-center space-x-2 py-8">
                 <div class="w-1/5">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-full w-full text-white scale-110" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
@@ -92,7 +92,7 @@
                 <h1 class="text-xl text-white">Admin</h1>
             </a>
 
-            <a href="<?php echo base_url() ?>/home" class="bg-white py-8 ml-2 text-center text-md text-sky-600 font-medium hover:bg-sky-800 hover:text-white duration-300 delay-100">
+            <a href="<?php echo base_url() ?>/admin/home" class="bg-white py-8 ml-2 text-center text-md text-sky-600 font-medium hover:bg-sky-800 hover:text-white duration-300 delay-100">
                 <p>Courses</p>
             </a>
 
@@ -101,12 +101,12 @@
             </a>
         </div>
 
-        <div class="flex flex-col mx-10 w-full sm:w-4/5 items-center py-2 px-8" id="yess">
+        <div class="flex flex-col mx-10 w-full sm:w-4/5 items-center pt-4 pb-16 px-8" id="yess">
             <h1 class="text-3xl font-medium text-neutral-600 py-4">Courses List</h1>
 
             <!-- TABLE  -->
             <div class="flex flex-col">
-                <div class="py-4 flex flex-row items-start w-full">
+                <div class="pt-4 pb-8 flex flex-row items-start w-full">
                     <div class="flex items-start">
                         <a href="<?php echo base_url() ?>/admin/create" class="flex flex-row justify-center items-center py-2 px-4 border border-sky-500 shadow-sm text-sm rounded-md text-sky-600 bg-white hover:bg-sky-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-sky-500 duration-300 delay-75">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -147,14 +147,15 @@
                     $i = 1;
                     foreach ($course as $row) :
                       echo "<tr class='hover:bg-sky-100 text-center'>
-                        <td class='py-4 px-6 text-sm text'> $i </td>
-                        <td class='py-4 px-6 text-sm text'> {$row['nama_course']}</td>
-                        <td class='py-4 px-6 text-sm text-left'>{$row['category']}</td>
+                      
+                        <td class='py-4 px-6 text-sm text border-x'> $i. </td>
+                        <td class='py-4 px-6 text-sm text-left'> {$row['nama_course']}</td>
+                        <td class='py-4 px-6 text-sm text-center border-x'>{$row['category']}</td>
                         <td class='py-4 px-6 text-sm text-left'>{$row['instructor']}</td>
-                        <td class='py-4 px-6 text-sm text-left'>{$row['price']}</td>
-                        <td class='py-4 px-6 text-sm text flex flex-row items-center space-x-2 justify-evenly'> 
-                            <a href='admin/delete/{$row['id_course']}' class='px-3 py-2 rounded-md text-sm bg-red-500 hover:bg-red-600 text-white text-center focus:border-red-500 focus:ring-red-500 focus:ring-1 focus:ring-offset-2 duration-300 delay-75'>Hapus</a>  
-                            <a href='#' class='w-[45%] px-3 py-2 rounded-md text-sm bg-slate-100 border hover:bg-slate-600 hover:text-white text-black text-center focus:border-slate-500 focus:ring-slate-500 focus:ring-1 focus:ring-offset-2 duration-300 delay-75'>Update</a> 
+                        <td class='py-4 px-6 text-sm text-center border-x'>$ {$row['price']}</td>
+                        <td class='py-4 px-6 text-sm text flex flex-row items-center space-x-2 justify-evenly border-r'> 
+                            <a href='delete/{$row['id_course']}' class='px-3 py-2 rounded-md text-sm bg-red-500 hover:bg-red-600 text-white text-center focus:border-red-500 focus:ring-red-500 focus:ring-1 focus:ring-offset-2 duration-300 delay-75'>Hapus</a>  
+                            <a href='update/{$row['id_course']}' class='w-[45%] px-3 py-2 rounded-md text-sm bg-slate-100 border hover:bg-slate-600 hover:text-white text-black text-center focus:border-slate-500 focus:ring-slate-500 focus:ring-1 focus:ring-offset-2 duration-300 delay-75'>Update</a> 
                         </td>
                     </tr>";
                     $i++;
@@ -163,7 +164,7 @@
                    
     
                     </tbody>
-    
+                    
                 </table>
                 <!-- END OF TABLE -->
             </div>

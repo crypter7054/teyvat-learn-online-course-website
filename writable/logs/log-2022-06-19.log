@@ -145,3 +145,75 @@ in APPPATH\Controllers\Home.php on line 17.
  2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 18:39:17 --> Undefined property: App\Controllers\Admin::$userModel
+in APPPATH\Controllers\Admin.php on line 97.
+ 1 APPPATH\Controllers\Admin.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$userModel', 'APPPATH\\Controllers\\Admin.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->process_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 18:41:05 --> Undefined property: App\Controllers\Admin::$userModel
+in APPPATH\Controllers\Admin.php on line 97.
+ 1 APPPATH\Controllers\Admin.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$userModel', 'APPPATH\\Controllers\\Admin.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->process_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 18:41:16 --> Undefined index: password
+in APPPATH\Controllers\Admin.php on line 102.
+ 1 APPPATH\Controllers\Admin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'APPPATH\\Controllers\\Admin.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->process_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 18:41:44 --> Undefined index: password
+in APPPATH\Controllers\Admin.php on line 102.
+ 1 APPPATH\Controllers\Admin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'APPPATH\\Controllers\\Admin.php', 102, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->process_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 18:48:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::back() must be of the type int or null, string given, called in C:\xampp\htdocs\tubes_web\app\Controllers\Admin.php on line 112
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 70.
+ 1 APPPATH\Controllers\Admin.php(112): CodeIgniter\HTTP\RedirectResponse->back('/admin')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->process_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 19:22:52 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Admin.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 20:03:21 --> Undefined variable: 30
+in APPPATH\Views\admin-side\home_admin.php on line 155.
+ 1 APPPATH\Views\admin-side\home_admin.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 30', 'APPPATH\\Views\\admin-side\\home_admin.php', 155, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin-side\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 20:04:29 --> Undefined variable: 30
+in APPPATH\Views\admin-side\home_admin.php on line 155.
+ 1 APPPATH\Views\admin-side\home_admin.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 30', 'APPPATH\\Views\\admin-side\\home_admin.php', 155, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin-side\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 20:04:53 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\admin-side\home_admin.php on line 155.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

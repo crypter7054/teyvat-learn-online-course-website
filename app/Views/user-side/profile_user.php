@@ -148,6 +148,7 @@
     
             <!-- FORM -->
             <form action="<?php echo base_url() ?>/user/storePhoto" method="post" enctype="multipart/form-data">
+            <?= csrf_field(); ?>
                 <!-- FOTO -->
                 <div>
                     <label class="after:content-['*'] after:ml-0.3 after:text-red-500 block text-sm font-medium text-slate-700 mt-6"> Upload Photo </label>

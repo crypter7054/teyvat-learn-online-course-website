@@ -39,7 +39,7 @@
           <div class="flex items-center justify-between py-5">
             
             <!-- LOGO -->
-            <a href="<?php echo base_url() ?>/home" class="group flex flex-row items-center">
+            <a href="<?php echo base_url() ?>/admin/home" class="group flex flex-row items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-500 group-hover:animate-spin" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M17.293     13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                 </svg>
@@ -59,14 +59,14 @@
                   <div x-show="open" class="absolute bg-white mt-2 pb-6 border-b items-center rounded-md shadow-lg w-auto" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" >
                     <!-- MENU ITEM -->
                     <div class="px-4 py-4 flex flex-col space-y-2 bg-white rounded-md shadow-sm">
-                    <a href="<?php echo base_url() ?>/home" class="text-sky-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Courses</a>
-                      <a href="<?php echo base_url() ?>/course" class="text-gray-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Account</a>
+                    <a href="<?php echo base_url() ?>/admin/home" class="text-sky-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Courses</a>
+                      <a href="<?php echo base_url() ?>/admin/course" class="text-gray-500 hover:text-sky-500 delay-75 duration-300 text-md font-normal mr-8">Account</a>
                     </div>
                     <!-- END OF MENU ITEM -->
                     
                     <div class="bg-white flex flex-col mt-8 mx-2 items-start text-center space-y-3">
-                      <a href="<?php echo base_url() ?>/login" class="text-sky-500 bg-white border border-sky-500 text-sm font-normal px-4 py-2 rounded-lg hover:text-sky-500 hover:bg-gray-50 duration-300 delay-75"> Log in </a>
-                      <a href="<?php echo base_url() ?>/register" class="text-white bg-sky-500 shadow-md border text-sm font-normal px-5 py-2 rounded-lg hover:bg-sky-500 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-sky-500 duration-300 delay-75"> Sign up </a>
+                      <!-- <a href="<?php echo base_url() ?>/login" class="text-sky-500 bg-white border border-sky-500 text-sm font-normal px-4 py-2 rounded-lg hover:text-sky-500 hover:bg-gray-50 duration-300 delay-75"> Log in </a>
+                      <a href="<?php echo base_url() ?>/register" class="text-white bg-sky-500 shadow-md border text-sm font-normal px-5 py-2 rounded-lg hover:bg-sky-500 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-sky-500 duration-300 delay-75"> Sign up </a> -->
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@
     <div class="flex flex-row h-screen">
         <!-- SIDEBAR -->
         <div class="hidden sm:flex flex-col bg-sky-600 w-1/6 -m-2 shadow-lg absurd">
-            <a href="<?php echo base_url() ?>/home" class="flex flex-row items-center justify-center space-x-2 py-8">
+            <a href="<?php echo base_url() ?>/admin/home" class="flex flex-row items-center justify-center space-x-2 py-8">
                 <div class="w-1/5">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-full w-full text-white scale-110" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
@@ -92,7 +92,7 @@
                 <h1 class="text-xl text-white">Admin</h1>
             </a>
 
-            <a href="<?php echo base_url() ?>/home" class="bg-sky-600 py-8 ml-2 text-center text-md text-white font-medium hover:bg-sky-800 hover:text-white duration-300 delay-100">
+            <a href="<?php echo base_url() ?>/admin/home" class="bg-sky-600 py-8 ml-2 text-center text-md text-white font-medium hover:bg-sky-800 hover:text-white duration-300 delay-100">
                 <p>Courses</p>
             </a>
 

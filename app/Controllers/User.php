@@ -125,7 +125,7 @@ class User extends BaseController
         $session = session();
         $id = $session->get('id');
         
-        // dd($filename);
+        dd($file);
         
         if ($file->isValid() && ! $file->hasMoved()) {
             $filename = $file->getName();

@@ -19,4 +19,27 @@ class courseModel extends Model
 
         return $this->where(['id_course' => $id_course])->first();
     }
+
+    public function getCourseLogin($username)
+    {
+        return $this->where(['username' => $username])->first();
+    }
+
+    // create
+    public function saveCourse($data)
+    {
+        return $this->insert($data);
+    }
+
+    // delete
+    public function deleteCourse($id)
+    {
+        return $this->where('id_course', $id)->delete();
+    }
+
+    // update
+    public function updateCourse($id, $data)
+    {
+        return $this->update($id, $data);
+    }
 }   

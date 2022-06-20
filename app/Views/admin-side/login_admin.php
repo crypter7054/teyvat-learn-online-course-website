@@ -45,10 +45,6 @@
               <h1 class="text-sky-500 text-xl ml-1">Teyvat Learn - Admin</h1>
             </a>  
             <!-- END OF LOGO -->
-
-            
-            
-            
           </div>
         </div>
       </div>
@@ -56,7 +52,7 @@
 
     <!-- FORM LOGIN -->
     <div class="flex flex-col py-28 items-center">
-      <form action="<?php echo base_url() ?>/process_admin" method="post" class="mt-10 shadow-lg rounded-xl py-12 px-10 md:w-1/3 sm:w-5/6">
+      <form action="<?php echo base_url() ?>/admin/process_admin" method="post" class="mt-10 shadow-lg rounded-xl py-12 px-10 md:w-1/3 sm:w-5/6">
           <h1 class="text-3xl text-gray-600 font-normal pb-10 text-center"> Login Account </h1>
           
           <!-- USERNAME -->
@@ -66,9 +62,9 @@
           </label>
           
           <!-- PASSWORD -->
-          <label for="password" class="block mt-6">
+          <label for="password_admin" class="block mt-6">
               <span class="after:content-['*'] after:ml-0.3 after:text-red-500 block text-sm font-medium text-slate-700"> Password </span>
-              <input name="password" type="password" placeholder="Password" required class="mt-3 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1">
+              <input name="password_admin" type="password" placeholder="Password" required class="mt-3 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1">
           </label>
           
           <!-- BUTTON LOGIN -->
@@ -76,7 +72,7 @@
               <div class="py-3 text-left w-full bg-white mt-8">
                   <input name="login" type="submit" value="Login" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm rounded-md text-white bg-sky-500 hover:bg-sky-500 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-sky-500 w-full " />
               </div>
-          </div>
+          </div>       
 
           <!-- SESSION -->
           <?php if(!empty(session()->getFlashdata('error'))) : ?>
