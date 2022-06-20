@@ -25,6 +25,12 @@ class courseModel extends Model
         return $this->where(['username' => $username])->first();
     }
 
+    public function getPhotoCourse($id_course)
+    {
+        $photo = $this->where('id_course', $id_course)->findColumn('photo_course');
+        return $photo;
+    }
+
     // create
     public function saveCourse($data)
     {

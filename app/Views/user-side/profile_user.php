@@ -129,7 +129,11 @@
 
             <div class="text-2xl text-center text-gray-600">Profile</div>
 
-            <?php $user; $ini = $user['photo'];  ?>
+                <?php $phototemp = $user['photo']; if ($phototemp == null) : ?>
+                    <?php $ini = 'default_profile_1.jpg'; ?>
+                  <?php else : ?>
+                    <?php $ini = $user['photo']; ?>
+                <?php endif; ?>
 
               <!-- IMAGE -->
               <div class="group flex flex-col rounded-lg m-5 items-center">

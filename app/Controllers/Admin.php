@@ -57,14 +57,18 @@ class Admin extends BaseController
     public function save($id_course = null)
     {
         $file2 = $this->request->getFile('cupload');
-        
-		// dd($file2);
+        $filename2 = $file2->getName();
+        // dd($filename2);
 
+        if ($filename2 == '') {
+            $filename2 = $this->courseModel->getPhotoCourse($id_course);
+        }
+        
         if ($file2->isValid() && ! $file2->hasMoved()) {
-            $filename2 = $file2->getName();
             $file2->move('public/file', $filename2);
         }
         
+
         $data = [
 			'nama_course' => $this->request->getVar('nama_course'),
 			'photo_course' => $filename2,
@@ -136,6 +140,10 @@ class Admin extends BaseController
         $data = [
 			'course' => $this->courseModel->getCourse($id),
 		];
+        
+        // $photo = $data['photo_course'];
+        // dd($photo);
+
 
 		return view('admin-side/update_course', $data);
     }

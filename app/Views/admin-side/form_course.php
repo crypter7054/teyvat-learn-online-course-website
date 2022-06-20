@@ -165,8 +165,7 @@
                 <div class="flex flex-row mt-8 pb-12 w-full">
 
                     <div class="bg-white w-full">
-                      <input name="upload_course" type="submit" id="upload_course" class="inline-flex justify-center py-2 px-4 w-full border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500" value="Upload" />
-                        <!-- <input name="upload_course" id="upload_course" value="Add" type="submit" class="inline-flex justify-center py-2 px-4 w-full border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500" /> -->
+                      <input name="upload_course" type="submit" id="upload_course" class="inline-flex justify-center py-2 px-4 w-full border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500" value="Add" />
                     </div>
                     
                     <div class="text-left bg-white ml-4">

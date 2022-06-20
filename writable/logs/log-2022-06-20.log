@@ -1,0 +1,196 @@
+CRITICAL - 2022-06-20 01:54:18 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 70.
+ 1 APPPATH\Controllers\Admin.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:55:01 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 67.
+ 1 APPPATH\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:55:45 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 67.
+ 1 APPPATH\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:57:22 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 75, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:57:35 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 76.
+ 1 APPPATH\Controllers\Admin.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 76, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:58:03 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 76.
+ 1 APPPATH\Controllers\Admin.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 76, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 01:59:30 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 72.
+ 1 APPPATH\Controllers\Admin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:01:20 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 72.
+ 1 APPPATH\Controllers\Admin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:01:31 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 73.
+ 1 APPPATH\Controllers\Admin.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:02:14 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 77.
+ 1 APPPATH\Controllers\Admin.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 77, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:10:44 --> Undefined index: photo_course
+in APPPATH\Controllers\Admin.php on line 148.
+ 1 APPPATH\Controllers\Admin.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: photo_course', 'APPPATH\\Controllers\\Admin.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->update('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:11:06 --> Undefined index: photo_course
+in APPPATH\Controllers\Admin.php on line 148.
+ 1 APPPATH\Controllers\Admin.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: photo_course', 'APPPATH\\Controllers\\Admin.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->update('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:14:28 --> Undefined index: photo_course
+in APPPATH\Controllers\Admin.php on line 148.
+ 1 APPPATH\Controllers\Admin.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: photo_course', 'APPPATH\\Controllers\\Admin.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->update('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:15:27 --> Undefined variable: filename2
+in APPPATH\Controllers\Admin.php on line 74.
+ 1 APPPATH\Controllers\Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filename2', 'APPPATH\\Controllers\\Admin.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:18:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Admin.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:18:11 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Admin.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:24:32 --> Undefined variable: id
+in APPPATH\Controllers\Admin.php on line 63.
+ 1 APPPATH\Controllers\Admin.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Controllers\\Admin.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:24:46 --> Undefined index: photo_course
+in APPPATH\Controllers\Admin.php on line 67.
+ 1 APPPATH\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: photo_course', 'APPPATH\\Controllers\\Admin.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:30:29 --> Undefined variable: photo_course
+in APPPATH\Controllers\Admin.php on line 67.
+ 1 APPPATH\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: photo_course', 'APPPATH\\Controllers\\Admin.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:30:41 --> Undefined variable: photo_course
+in APPPATH\Controllers\Admin.php on line 69.
+ 1 APPPATH\Controllers\Admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: photo_course', 'APPPATH\\Controllers\\Admin.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:48:22 --> Argument 1 passed to CodeIgniter\BaseModel::findColumn() must be of the type string, array given, called in C:\xampp\htdocs\tubes_web\app\Models\courseModel.php on line 30
+in SYSTEMPATH\BaseModel.php on line 548.
+ 1 APPPATH\Models\courseModel.php(30): CodeIgniter\BaseModel->findColumn([...])
+ 2 APPPATH\Controllers\Admin.php(69): App\Models\courseModel->getPhotoCourse('8')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:53:58 --> Call to a member function where() on array
+in APPPATH\Models\courseModel.php on line 31.
+ 1 APPPATH\Controllers\Admin.php(69): App\Models\courseModel->getPhotoCourse('8')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:55:31 --> Call to a member function where() on array
+in APPPATH\Models\courseModel.php on line 31.
+ 1 APPPATH\Controllers\Admin.php(69): App\Models\courseModel->getPhotoCourse('8')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:55:44 --> Call to a member function where() on array
+in APPPATH\Models\courseModel.php on line 31.
+ 1 APPPATH\Controllers\Admin.php(69): App\Models\courseModel->getPhotoCourse('8')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:55:54 --> Call to a member function where() on array
+in APPPATH\Models\courseModel.php on line 31.
+ 1 APPPATH\Controllers\Admin.php(69): App\Models\courseModel->getPhotoCourse('8')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->save('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 03:12:26 --> Undefined index: nama
+in APPPATH\Views\user-side\home.php on line 12.
+ 1 APPPATH\Views\user-side\home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\user-side\\home.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/home', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('user-side/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 03:12:40 --> Undefined index: nama
+in APPPATH\Views\user-side\home.php on line 13.
+ 1 APPPATH\Views\user-side\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\user-side\\home.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/home', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('user-side/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
