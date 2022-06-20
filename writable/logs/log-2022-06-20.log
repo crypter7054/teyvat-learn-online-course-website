@@ -194,3 +194,14 @@ in APPPATH\Views\user-side\home.php on line 13.
  7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 04:23:44 --> Undefined variable: pager
+in APPPATH\Views\admin-side\home_admin.php on line 171.
+ 1 APPPATH\Views\admin-side\home_admin.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin-side\\home_admin.php', 171, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin-side\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

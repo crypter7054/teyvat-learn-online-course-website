@@ -170,9 +170,15 @@
             </a>
 
             <?php endforeach; ?>
-
+            
             <!-- COURSE -->
         </div>
+
+        <div class="flex flex-row justify-end mx-full px-16 w-full">
+        <?= $pager->links('course', 'course_pagination'); ?>
+
+        </div>
+        
         
     </div>
   <!-- END OF HERO SECTION -->

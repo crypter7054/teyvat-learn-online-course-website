@@ -33,7 +33,8 @@ class Home extends BaseController
 
         // simpan data ke var.
         $data = [
-            'course' => $course,
+            'course' => $this->courseModel->paginate(8),
+            'pager' => $this->courseModel->pager,
             'user' => $user,
         ];
 

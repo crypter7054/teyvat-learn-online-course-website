@@ -29,8 +29,9 @@ class Course extends BaseController
 
         // simpan data ke var.
         $data = [
-            'course' => $course,
-            'user' => $user
+            'course' => $this->courseModel->paginate(6, 'course'),
+            'pager' => $this->courseModel->pager,
+            'user' => $user,
         ];
 
         // tampilkan halaman
