@@ -205,3 +205,860 @@ in APPPATH\Views\admin-side\home_admin.php on line 171.
  7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 16:06:03 --> Undefined variable: pager
+in APPPATH\Views\admin-side\home_admin.php on line 170.
+ 1 APPPATH\Views\admin-side\home_admin.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin-side\\home_admin.php', 170, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin-side\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 16:06:39 --> Undefined variable: pager
+in APPPATH\Views\admin-side\home_admin.php on line 170.
+ 1 APPPATH\Views\admin-side\home_admin.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin-side\\home_admin.php', 170, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin-side\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin-side/home_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin-side/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 17:44:20 --> Undefined variable: course
+in APPPATH\Views\user-side\profile_user.php on line 197.
+ 1 APPPATH\Views\user-side\profile_user.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\profile_user.php', 197, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(116): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 17:44:46 --> Undefined variable: course
+in APPPATH\Views\user-side\profile_user.php on line 197.
+ 1 APPPATH\Views\user-side\profile_user.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\profile_user.php', 197, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(116): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 17:58:39 --> Undefined variable: id_user
+in APPPATH\Controllers\User.php on line 118.
+ 1 APPPATH\Controllers\User.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_user', 'APPPATH\\Controllers\\User.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 17:59:27 --> Too few arguments to function App\Controllers\User::displayProfile(), 1 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\User.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:00:17 --> Undefined variable: course
+in APPPATH\Views\user-side\profile_user.php on line 197.
+ 1 APPPATH\Views\user-side\profile_user.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\profile_user.php', 197, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(122): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:04:56 --> Not unique table/alias: 'user'
+CRITICAL - 2022-06-20 18:04:56 --> Not unique table/alias: 'user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:05:04 --> Not unique table/alias: 'user'
+CRITICAL - 2022-06-20 18:05:04 --> Not unique table/alias: 'user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:05:23 --> Not unique table/alias: 'user'
+CRITICAL - 2022-06-20 18:05:23 --> Not unique table/alias: 'user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:05:32 --> Class 'App\Models\enrollmentModel' not found
+in APPPATH\Controllers\User.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:05:47 --> Not unique table/alias: 'user'
+CRITICAL - 2022-06-20 18:05:47 --> Not unique table/alias: 'user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `user` ON `user`.`id_course` = `enrollment`.`id_course`', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:06:23 --> Unknown column 'user.id_course' in 'on clause'
+CRITICAL - 2022-06-20 18:06:23 --> Unknown column 'user.id_course' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `user`.`id_course` = `enrollment`.`id_course`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `user`.`id_course` = `enrollment`.`id_course`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `user`.`id_course` = `enrollment`.`id_course`', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:08:12 --> Undefined variable: id_course
+in APPPATH\Controllers\User.php on line 118.
+ 1 APPPATH\Controllers\User.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_course', 'APPPATH\\Controllers\\User.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:09:22 --> Call to undefined method App\Models\courseModel::getEnrollCourse
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(118): CodeIgniter\Model->__call('getEnrollCourse', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:09:56 --> Unknown column 'photo_course' in 'field list'
+CRITICAL - 2022-06-20 18:09:56 --> Unknown column 'photo_course' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `photo_course`
+FROM `enrollment`
+WHERE `id_course` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `photo_course`
+FROM `enrollment`
+WHERE `id_course` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `photo_course`
+FROM `enrollment`
+WHERE `id_course` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `photo_course`
+FROM `enrollment`
+WHERE `id_course` = :id_course:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('photo_course')
+ 9 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('photo_course')
+10 APPPATH\Controllers\User.php(118): App\Models\enrollmentModel->getEnrollCourse('1')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:19:03 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:19:03 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id_course` = :id_course:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\courseModel.php(20): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\User.php(119): App\Models\courseModel->getCourse([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:19:17 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:19:17 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id_course` = (\'1\',\'2\')
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id_course` = :id_course:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\courseModel.php(20): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\User.php(119): App\Models\courseModel->getCourse([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:19:23 --> Undefined variable: course1
+in APPPATH\Controllers\User.php on line 122.
+ 1 APPPATH\Controllers\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course1', 'APPPATH\\Controllers\\User.php', 122, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:19:28 --> Undefined variable: course1
+in APPPATH\Controllers\User.php on line 122.
+ 1 APPPATH\Controllers\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course1', 'APPPATH\\Controllers\\User.php', 122, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:21:00 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:21:00 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = :id_enroll:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_course')
+ 9 APPPATH\Models\enrollmentModel.php(30): CodeIgniter\BaseModel->findColumn('id_course')
+10 APPPATH\Controllers\User.php(119): App\Models\enrollmentModel->getEnrollCourse2([...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:21:15 --> Undefined variable: course1
+in APPPATH\Controllers\User.php on line 122.
+ 1 APPPATH\Controllers\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course1', 'APPPATH\\Controllers\\User.php', 122, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:21:34 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:21:34 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = :id_enroll:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_course')
+ 9 APPPATH\Models\enrollmentModel.php(30): CodeIgniter\BaseModel->findColumn('id_course')
+10 APPPATH\Controllers\User.php(121): App\Models\enrollmentModel->getEnrollCourse2([...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:21:47 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:21:47 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = (\'1\',\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_course`
+FROM `enrollment`
+WHERE `id_enroll` = :id_enroll:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_course')
+ 9 APPPATH\Models\enrollmentModel.php(30): CodeIgniter\BaseModel->findColumn('id_course')
+10 APPPATH\Controllers\User.php(121): App\Models\enrollmentModel->getEnrollCourse2([...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:23:14 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:23:14 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_enroll')
+ 9 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('id_enroll')
+10 APPPATH\Controllers\User.php(123): App\Models\enrollmentModel->getEnrollCourse([...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:24:53 --> Undefined variable: test
+in APPPATH\Controllers\User.php on line 126.
+ 1 APPPATH\Controllers\User.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test', 'APPPATH\\Controllers\\User.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:27:33 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:27:33 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = (\'1\',\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_enroll')
+ 9 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('id_enroll')
+10 APPPATH\Controllers\User.php(126): App\Models\enrollmentModel->getEnrollCourse([...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:28:05 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...], false)
+ 7 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 9 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+10 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_enroll')
+11 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('id_enroll')
+12 APPPATH\Controllers\User.php(128): App\Models\enrollmentModel->getEnrollCourse([...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:28:14 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...], false)
+ 7 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 9 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+10 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_enroll')
+11 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('id_enroll')
+12 APPPATH\Controllers\User.php(123): App\Models\enrollmentModel->getEnrollCourse([...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:28:25 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_enroll`
+FROM `enrollment`
+WHERE `id_user` = :id_user:', [...], false)
+ 7 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 9 SYSTEMPATH\Model.php(200): CodeIgniter\BaseModel->find()
+10 SYSTEMPATH\BaseModel.php(554): CodeIgniter\Model->doFindColumn('id_enroll')
+11 APPPATH\Models\enrollmentModel.php(24): CodeIgniter\BaseModel->findColumn('id_enroll')
+12 APPPATH\Controllers\User.php(123): App\Models\enrollmentModel->getEnrollCourse([...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:30:45 --> Undefined variable: course
+in APPPATH\Controllers\User.php on line 126.
+ 1 APPPATH\Controllers\User.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Controllers\\User.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:31:02 --> Illegal string offset 'photo_course'
+in APPPATH\Views\user-side\profile_user.php on line 198.
+ 1 APPPATH\Views\user-side\profile_user.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'photo_course\'', 'APPPATH\\Views\\user-side\\profile_user.php', 198, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(130): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:31:32 --> Illegal string offset 'photo_course'
+in APPPATH\Views\user-side\profile_user.php on line 198.
+ 1 APPPATH\Views\user-side\profile_user.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'photo_course\'', 'APPPATH\\Views\\user-side\\profile_user.php', 198, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(130): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:31:36 --> Illegal string offset 'photo_course'
+in APPPATH\Views\user-side\profile_user.php on line 198.
+ 1 APPPATH\Views\user-side\profile_user.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'photo_course\'', 'APPPATH\\Views\\user-side\\profile_user.php', 198, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(130): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:31:46 --> Illegal string offset 'photo_course'
+in APPPATH\Views\user-side\profile_user.php on line 198.
+ 1 APPPATH\Views\user-side\profile_user.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'photo_course\'', 'APPPATH\\Views\\user-side\\profile_user.php', 198, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(130): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:33:01 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-06-20 18:33:01 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+WHERE `id_course` = (\'9\',\'20\')
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id_course` = (\'9\',\'20\')
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id_course` = (\'9\',\'20\')
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id_course` = :id_course:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\courseModel.php(20): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\User.php(122): App\Models\courseModel->getCourse([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:38:01 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2022-06-20 18:38:01 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 APPPATH\Models\enrollmentModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:38:23 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2022-06-20 18:38:23 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 APPPATH\Models\enrollmentModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:40:38 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2022-06-20 18:40:38 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 APPPATH\Models\enrollmentModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:40:49 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Models\enrollmentModel.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\enrollmentModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\enrollmentModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\enrollmentModel')
+ 4 APPPATH\Controllers\User.php(22): spl_autoload_call('App\\Models\\enrollmentModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\User->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 18:41:47 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2022-06-20 18:41:47 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `id_user` = :id_user:', [...], false)
+ 5 APPPATH\Models\enrollmentModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(117): App\Models\enrollmentModel->getEnroll2('1')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:42:17 --> Undefined variable: course
+in APPPATH\Views\user-side\profile_user.php on line 197.
+ 1 APPPATH\Views\user-side\profile_user.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\profile_user.php', 197, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(130): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:47:50 --> Undefined variable: row
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(58): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:47:53 --> Undefined variable: row
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(58): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:48:08 --> Undefined variable: row
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(58): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:48:11 --> Undefined variable: row
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(58): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:54:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\enrollmentModel.php(48): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Course.php(99): App\Models\enrollmentModel->saveEnroll([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('8')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:56:26 --> Undefined variable: data
+in APPPATH\Controllers\Course.php on line 84.
+ 1 APPPATH\Controllers\Course.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Course.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('8')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 18:56:40 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\enrollmentModel.php(48): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Course.php(84): App\Models\enrollmentModel->saveEnroll([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('8')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 19:03:10 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-20 19:03:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\courseModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(25): App\Models\courseModel->getCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 19:03:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-20 19:03:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\courseModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Course.php(26): App\Models\courseModel->getCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 19:19:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-20 19:19:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\courseModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Course.php(26): App\Models\courseModel->getCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-20 19:19:58 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-20 19:19:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\courseModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(25): App\Models\courseModel->getCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

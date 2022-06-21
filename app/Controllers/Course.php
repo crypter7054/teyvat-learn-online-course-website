@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use \App\Models\courseModel;
 use \App\Models\userModel;
+use \App\Models\enrollmentModel;
 
 class Course extends BaseController
 {
@@ -15,6 +16,7 @@ class Course extends BaseController
         // instansi objek investor
         $this->courseModel = new courseModel();
         $this->userModel = new userModel();
+        $this->enrollmentModel = new enrollmentModel();
     }
     
     // method index
@@ -29,7 +31,7 @@ class Course extends BaseController
 
         // simpan data ke var.
         $data = [
-            'course' => $this->courseModel->paginate(6, 'course'),
+            'course' => $this->courseModel->paginate(8, 'course'),
             'pager' => $this->courseModel->pager,
             'user' => $user,
         ];
@@ -61,14 +63,18 @@ class Course extends BaseController
     public function checkout()
     {
         $course = $this->courseModel->getCourse();
+        $user = $this->userModel->getUser();
         $session = session();
         $userNow = $session->get('id');
 
         $user = $this->userModel->getUser($userNow);
 
+        if ($userNow == null) {
+            return redirect()->to('/login');
+        }
         // simpan data ke var.
         $data = [
-            'user' => $user
+            'user' => $user 
         ];
 
         // tampilkan halaman

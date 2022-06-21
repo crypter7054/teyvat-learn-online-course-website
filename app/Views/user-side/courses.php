@@ -86,9 +86,17 @@
             <?php $session = session(); if ($session->has('email')) : ?>
               <div class='hidden sm:flex sm:flex-row'>
               <a href='<?php $user; echo "user/profile/{$user['id_user']}"; ?>' class='mr-3'>
-                <svg xmlns='http://www.w3.org/2000/svg' class='h-10 w-10 text-sky-600 hover:text-sky-700 delay-75 duration-300' viewBox='0 0 20 20' fill='currentColor'>
-                      <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z' clip-rule='evenodd' />
-                    </svg>
+                <?php $user; ?>
+                
+                <?php $phototemp = $user['photo']; if ($phototemp == null) : ?>
+                    <?php $ini2 = 'default_profile_1.jpg'; ?>
+                  <?php else : ?>
+                    <?php $ini2 = $user['photo']; ?>
+                <?php endif; ?>
+
+                  <div class="h-10 w-10 mr-2">
+                    <img src='<?php echo base_url('public/file/'.$ini2); ?>' class='w-full h-full rounded-full opacity-90 hover:opacity-100 hover:scale-105'>
+                  </div>
                 <h1 class></h1>
                 </a>
               
@@ -138,12 +146,12 @@
         <!-- END OF FEATURES -->
 
         <!-- MAIN -->
-        <div class="flex sm:flex-wrap flex-nowrap items-center sm:flex-row flex-col px-16 justify-between">
+        <div class=" flex sm:flex-wrap flex-nowrap items-center sm:flex-row flex-col px-16 justify-start">
             <!-- COURSE -->
             <?php foreach ($course as $row) :
             $ini = $row['photo_course']; ?>
 
-            <a href= "<?php echo "detail/{$row['id_course']}"; ?>" class="rounded-2xl w-[15rem] sm:w-[16rem] bg-white mb-12 group border hover:-translate-y-5 border-sky-100 hover:bg-gradient-to-br hover:from-sky-300 hover:to-sky-500 duration-300 delay-100 flex flex-col items-center hover:ring-1 hover:ring-offset-4">
+            <a href= "<?php echo "detail/{$row['id_course']}"; ?>" class="mx-6 rounded-2xl w-[15rem] sm:w-[16rem] bg-white mb-12 group border hover:-translate-y-5 border-sky-100 hover:bg-gradient-to-br hover:from-sky-300 hover:to-sky-500 duration-300 delay-100 flex flex-col items-center hover:ring-1 hover:ring-offset-4">
               <div class="sm:w-[15rem] w-[14rem] h-[10rem]">
                 <img src="<?php echo base_url('public/file/'.$ini); ?>" alt="course1" class="w-full h-full opacity-[0.85] group-hover:opacity-100 duration-100 delay-75 rounded-t-xl rounded-b-sm sm:mt-2 mt-2">
               </div>

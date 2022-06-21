@@ -167,7 +167,10 @@
                 </table>
                 <!-- END OF TABLE -->
             </div>
-            
+          
+            <div class="mt-4 flex flex-row justify-end mx-full w-full">
+              <?= $pager->links('course', 'course_pagination'); ?>
+            </div>
 
         </div>
     </div>

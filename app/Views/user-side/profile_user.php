@@ -96,9 +96,17 @@
             <?php $session = session(); if ($session->has('email')) : ?>
               <div class='hidden sm:flex sm:flex-row'>
               <a href='#' class='mr-3'>
-                <svg xmlns='http://www.w3.org/2000/svg' class='h-10 w-10 text-sky-600 hover:text-sky-700 delay-75 duration-300' viewBox='0 0 20 20' fill='currentColor'>
-                      <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z' clip-rule='evenodd' />
-                    </svg>
+                <?php $user; ?>
+                
+                <?php $phototemp = $user['photo']; if ($phototemp == null) : ?>
+                    <?php $ini2 = 'default_profile_1.jpg'; ?>
+                  <?php else : ?>
+                    <?php $ini2 = $user['photo']; ?>
+                <?php endif; ?>
+
+                  <div class="h-10 w-10 mr-2">
+                    <img src='<?php echo base_url('public/file/'.$ini2); ?>' class='w-full h-full rounded-full opacity-90 hover:opacity-100 hover:scale-105'>
+                  </div>
                 <h1 class></h1>
                 </a>
               
@@ -124,7 +132,7 @@
     <!-- END OF NAVBAR -->
     
     <!-- HERO SECTION -->
-    <div class="flex flex-col pt-4 sm:pt-16 items-center pb-16">
+    <div class="flex flex-col pt-4 sm:pt-16 items-center pb-2">
         <div class="border mt-10 rounded-xl p-10 w-1/2 flex flex-col items-center">
 
             <div class="text-2xl text-center text-gray-600">Profile</div>
@@ -179,6 +187,51 @@
         </div>
     </div>
     <!-- END OF HERO SECTION -->
+
+    <!-- ENROLLMENT -->
+    <div class="flex flex-col pt-4 sm:pt-0 items-center pb-16">
+        <div class="border mt-10 rounded-xl p-10 w-1/2 flex flex-col items-center">
+
+        <div class=" flex sm:flex-wrap flex-nowrap items-center sm:flex-row flex-col justify-start">
+            <!-- COURSE -->
+            <?php foreach ($enroll as $row) :
+            $ini = $row['photo_course']; 
+            // dd($enroll)
+            ;?>
+
+            <a href= "<?php echo "detail/{$row['id_course']}"; ?>" class="mx-6 rounded-2xl w-[15rem] sm:w-[16rem] bg-white mb-12 group border hover:-translate-y-5 border-sky-100 hover:bg-gradient-to-br hover:from-sky-300 hover:to-sky-500 duration-300 delay-100 flex flex-col items-center hover:ring-1 hover:ring-offset-4">
+              <div class="sm:w-[15rem] w-[14rem] h-[10rem]">
+                <img src="<?php echo base_url('public/file/'.$ini); ?>" alt="course1" class="w-full h-full opacity-[0.85] group-hover:opacity-100 duration-100 delay-75 rounded-t-xl rounded-b-sm sm:mt-2 mt-2">
+              </div>
+              <h1 class="text-lg font-medium pt-4 leading-tight px-4 pb-2 group-hover:text-white duration-100 delay-75"><?= $row['nama_course']; ?></h1>
+              <div class="w-full flex flex-row justify-start ml-1 py-2 px-4 group-hover:text-white duration-300 delay-75">
+                  <div class="flex flex-row items-center justify-center mr-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-500 group-hover:text-white duration-100 delay-75" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                      </svg>
+                      <p class="text-sm ml-1"><?= $row['category']; ?></p>
+                  </div>
+                  <div class="flex flex-row items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-500 group-hover:text-white duration-100 delay-75" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                        </svg>
+                      <p class="text-sm ml-1"><?= $row['videos']; ?> Videos</p>
+                  </div>
+              </div>
+              
+              <div class="flex flex-row w-full item justify-between pt-3 pb-4 px-4">
+                  <button id="login-button" class="w-[68%] text-sky-500 bg-white border border-sky-500 text-sm font-normal px-6 py-2 rounded-lg hover:ring-1 focus:outline-none focus:ring-1 hover:border-none hover:ring-white hover:ring-offset-1 focus:ring-offset-2 focus:ring-white duration-300 delay-75"> Enroll </button>
+                  <h1 class=" bg-sky-400 border group-hover:bg-white duration-100 delay-75 group-hover:text-sky-500 group-hover:outline-none rounded-xl px-3 py-2 text-lg font-[500px] text-white tracking-wide">$<?= $row['price']; ?></h1>
+              </div>
+            </a>
+
+            <?php endforeach; ?>
+            
+            <!-- COURSE -->
+        </div>
+        </div>
+    </div>
+    <!-- END OF ENROLLMENT SECTION -->
 
 </body>
 </html>

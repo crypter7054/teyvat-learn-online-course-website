@@ -3,17 +3,23 @@
 namespace App\Controllers;
 
 use \App\Models\userModel;
+use \App\Models\courseModel;
+use \App\Models\enrollmentModel;
 
 class User extends BaseController
 {
 
     protected $userModel; 
+    protected $courseModel; 
+    protected $enrollmentModel; 
 
     // konstruktor
     public function __construct(){
 
         // instansi objek investor
         $this->userModel = new userModel();
+        $this->courseModel = new courseModel();
+        $this->enrollmentModel = new enrollmentModel();
     }
     
     public function index()
@@ -107,9 +113,17 @@ class User extends BaseController
     // method index
     public function displayProfile($id_user)
     {
+        $user = $this->userModel->getUser($id_user);
+        $enroll = $this->enrollmentModel->getEnroll($id_user);
+        
+
+        
+        // dd($enroll);
+        
         // simpan data ke var.
         $data = [
-            'user' => $this->userModel->getUser($id_user)
+            'user' => $user,
+            'enroll' => $enroll,
         ];
 
         // tampilkan halaman

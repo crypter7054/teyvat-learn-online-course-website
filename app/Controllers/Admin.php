@@ -31,7 +31,8 @@ class Admin extends BaseController
 
         // simpan data ke var.
         $data = [
-            'course' => $course,
+            'course' => $this->courseModel->paginate(8, 'course'),
+            'pager' => $this->courseModel->pager,
         ];
 
         // tampilkan halaman
