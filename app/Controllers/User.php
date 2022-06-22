@@ -114,19 +114,23 @@ class User extends BaseController
     public function displayProfile($id_user)
     {
         $user = $this->userModel->getUser($id_user);
-        $enroll = $this->enrollmentModel->getEnroll($id_user);
-        
 
-        
+        $session = session();
+        $userNow = $session->get('id');
+
+        $enroll = $this->enrollmentModel->getEnroll($userNow);
+        $sign = $this->enrollmentModel->checkUser($id_user);
+
         // dd($enroll);
         
         // simpan data ke var.
         $data = [
             'user' => $user,
             'enroll' => $enroll,
+            'sign' => $sign,
         ];
 
-        // tampilkan halaman
+        // // tampilkan halaman
         return view('user-side/profile_user', $data);
     }   
 

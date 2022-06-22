@@ -1,0 +1,1111 @@
+CRITICAL - 2022-06-21 02:56:03 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...], false)
+ 7 APPPATH\Models\enrollmentModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\Course.php(60): App\Models\enrollmentModel->getEnroll([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:56:33 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...], false)
+ 7 APPPATH\Models\enrollmentModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\Course.php(60): App\Models\enrollmentModel->getEnroll([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:56:42 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...], false)
+ 7 APPPATH\Models\enrollmentModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\Course.php(60): App\Models\enrollmentModel->getEnroll([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:56:45 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...], false)
+ 7 APPPATH\Models\enrollmentModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\Course.php(60): App\Models\enrollmentModel->getEnroll([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:56:59 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `enrollment`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE `enrollment`.`id_user` = :enrollment.id_user:', [...], false)
+ 7 APPPATH\Models\enrollmentModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\Course.php(60): App\Models\enrollmentModel->getEnroll([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:04:16 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Models\enrollmentModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\enrollmentModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\enrollmentModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\enrollmentModel')
+ 4 APPPATH\Controllers\Course.php(21): spl_autoload_call('App\\Models\\enrollmentModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Course->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:12:31 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:12:31 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:13:00 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:13:00 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:13:02 --> Undefined variable: sign
+in APPPATH\Views\user-side\profile_user.php on line 200.
+ 1 APPPATH\Views\user-side\profile_user.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\profile_user.php', 200, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(132): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:13:06 --> Undefined variable: sign
+in APPPATH\Views\user-side\profile_user.php on line 200.
+ 1 APPPATH\Views\user-side\profile_user.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\profile_user.php', 200, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(132): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:13:46 --> Undefined variable: course
+in APPPATH\Views\user-side\profile_user.php on line 200.
+ 1 APPPATH\Views\user-side\profile_user.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\profile_user.php', 200, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(132): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:13:57 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:13:57 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:14:09 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:14:09 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:14:35 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:14:35 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:14:38 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:14:38 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:14:43 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:14:43 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('11')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('11')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 03:14:49 --> Not unique table/alias: 'course'
+CRITICAL - 2022-06-21 03:14:49 --> Not unique table/alias: 'course'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+JOIN `user` ON `user`.`id_user` = `enrollment`.`id_user`
+JOIN `course` ON `course`.`id_course` = `enrollment`.`id_course`
+WHERE 1 IS NULL', [], false)
+ 5 APPPATH\Models\enrollmentModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:16:10 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Models\enrollmentModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\enrollmentModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\enrollmentModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\enrollmentModel')
+ 4 APPPATH\Controllers\Course.php(21): spl_autoload_call('App\\Models\\enrollmentModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Course->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:16:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Models\enrollmentModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\enrollmentModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\enrollmentModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\enrollmentModel')
+ 4 APPPATH\Controllers\Course.php(21): spl_autoload_call('App\\Models\\enrollmentModel')
+ 5 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Course->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:16:39 --> Call to a member function join() on array
+in APPPATH\Models\enrollmentModel.php on line 24.
+ 1 APPPATH\Controllers\Course.php(52): App\Models\enrollmentModel->checkCourse('9')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:22:45 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\user-side\detail.php on line 210.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 3 APPPATH\Controllers\Course.php(67): view('user-side/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:22:55 --> Undefined index: id_enroll
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_enroll', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(67): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:23:20 --> Undefined index: id_enroll
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_enroll', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(67): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:23:39 --> Undefined index: id_enroll
+in APPPATH\Views\user-side\detail.php on line 187.
+ 1 APPPATH\Views\user-side\detail.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_enroll', 'APPPATH\\Views\\user-side\\detail.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/detail', [], true)
+ 5 APPPATH\Controllers\Course.php(67): view('user-side/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:30:16 --> Undefined variable: id_course
+in APPPATH\Controllers\User.php on line 122.
+ 1 APPPATH\Controllers\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_course', 'APPPATH\\Controllers\\User.php', 122, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:31:11 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\user-side\profile_user.php on line 233.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 3 APPPATH\Controllers\User.php(134): view('user-side/profile_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:44:39 --> Undefined variable: id_course
+in APPPATH\Controllers\Course.php on line 33.
+ 1 APPPATH\Controllers\Course.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_course', 'APPPATH\\Controllers\\Course.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:44:52 --> Undefined variable: sign
+in APPPATH\Controllers\Course.php on line 40.
+ 1 APPPATH\Controllers\Course.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Controllers\\Course.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 03:52:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user-side\profile_user.php on line 7.
+ 1 APPPATH\Views\user-side\profile_user.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user-side\\profile_user.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\profile_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/profile_user', [], true)
+ 5 APPPATH\Controllers\User.php(134): view('user-side/profile_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->displayProfile('9')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:07:38 --> Undefined variable: user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(84): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:08:24 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(86): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:08:35 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(86): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:08:38 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(86): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:08:55 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(86): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:09:58 --> Undefined variable: id_course
+in APPPATH\Controllers\Course.php on line 82.
+ 1 APPPATH\Controllers\Course.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_course', 'APPPATH\\Controllers\\Course.php', 82, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:10:11 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(86): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:11:22 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(89): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:12:24 --> Undefined index: id_user
+in APPPATH\Views\user-side\payment.php on line 99.
+ 1 APPPATH\Views\user-side\payment.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Views\\user-side\\payment.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(87): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:19:34 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:19:56 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:06 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:08 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:13 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:16 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:19 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:20:58 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('8')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:21:06 --> Undefined variable: course
+in APPPATH\Views\user-side\payment.php on line 195.
+ 1 APPPATH\Views\user-side\payment.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\payment.php', 195, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(85): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('8')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:25:40 --> Undefined variable: row
+in APPPATH\Views\user-side\payment.php on line 183.
+ 1 APPPATH\Views\user-side\payment.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\payment.php', 183, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:25:58 --> Undefined variable: row
+in APPPATH\Views\user-side\payment.php on line 184.
+ 1 APPPATH\Views\user-side\payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\user-side\\payment.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:26:33 --> Illegal string offset 'price'
+in APPPATH\Views\user-side\payment.php on line 184.
+ 1 APPPATH\Views\user-side\payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH\\Views\\user-side\\payment.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:26:58 --> Illegal string offset 'price'
+in APPPATH\Views\user-side\payment.php on line 184.
+ 1 APPPATH\Views\user-side\payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH\\Views\\user-side\\payment.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:27:01 --> Illegal string offset 'price'
+in APPPATH\Views\user-side\payment.php on line 184.
+ 1 APPPATH\Views\user-side\payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH\\Views\\user-side\\payment.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:27:18 --> Illegal string offset 'price'
+in APPPATH\Views\user-side\payment.php on line 185.
+ 1 APPPATH\Views\user-side\payment.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH\\Views\\user-side\\payment.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:28:05 --> Illegal string offset 'videos'
+in APPPATH\Views\user-side\payment.php on line 185.
+ 1 APPPATH\Views\user-side\payment.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'videos\'', 'APPPATH\\Views\\user-side\\payment.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:34:28 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\enrollmentModel.php(60): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Course.php(112): App\Models\enrollmentModel->saveEnroll([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:40:11 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\enrollmentModel.php(60): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Course.php(113): App\Models\enrollmentModel->saveEnroll([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:40:15 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\enrollmentModel.php(60): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Course.php(113): App\Models\enrollmentModel->saveEnroll([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('12')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 04:48:31 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Course.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('8')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:00:01 --> Undefined variable: user
+in APPPATH\Views\user-side\success_enroll.php on line 12.
+ 1 APPPATH\Views\user-side\success_enroll.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Views\\user-side\\success_enroll.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_enroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_enroll', [], true)
+ 5 APPPATH\Controllers\Course.php(117): view('user-side/success_enroll')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->checkout('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:01:12 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Course.php on line 112.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Course')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Course')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Course', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 06:03:43 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xampp\\htdocs\\tubes_web')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Views\user-side\payment.php(145): redirect('http://localhost/tubes_web')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 7 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 06:04:08 --> Call to a member function back() on string
+in APPPATH\Views\user-side\payment.php on line 145.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 4 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 06:05:04 --> Call to a member function back() on string
+in APPPATH\Views\user-side\payment.php on line 145.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 4 APPPATH\Controllers\Course.php(91): view('user-side/payment', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('5')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:44:46 --> Too few arguments to function App\Controllers\Course::save(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:49:11 --> Too few arguments to function App\Controllers\Course::save(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:49:36 --> Too few arguments to function App\Controllers\Course::save(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:55:28 --> Undefined variable: data2
+in APPPATH\Controllers\Course.php on line 147.
+ 1 APPPATH\Controllers\Course.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data2', 'APPPATH\\Controllers\\Course.php', 147, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:56:26 --> Undefined variable: course
+in APPPATH\Views\user-side\success_upload.php on line 157.
+ 1 APPPATH\Views\user-side\success_upload.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\success_upload.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(156): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:57:02 --> Undefined variable: course
+in APPPATH\Views\user-side\success_upload.php on line 157.
+ 1 APPPATH\Views\user-side\success_upload.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Views\\user-side\\success_upload.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(159): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:58:53 --> Undefined variable: user
+in APPPATH\Views\user-side\success_upload.php on line 12.
+ 1 APPPATH\Views\user-side\success_upload.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Views\\user-side\\success_upload.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(161): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:59:26 --> Undefined index: id_course
+in APPPATH\Views\user-side\success_upload.php on line 157.
+ 1 APPPATH\Views\user-side\success_upload.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_course', 'APPPATH\\Views\\user-side\\success_upload.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(162): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 19:59:34 --> Undefined index: id_course
+in APPPATH\Views\user-side\success_upload.php on line 157.
+ 1 APPPATH\Views\user-side\success_upload.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_course', 'APPPATH\\Views\\user-side\\success_upload.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(162): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:01:01 --> Too few arguments to function App\Controllers\Course::savePay(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:01:27 --> Too few arguments to function App\Controllers\Course::savePay(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:01:37 --> Too few arguments to function App\Controllers\Course::savePay(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:04:11 --> Too few arguments to function App\Controllers\Course::savePay(), 0 passed in C:\xampp\htdocs\tubes_web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Course.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:04:19 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+in APPPATH\Controllers\Course.php on line 129.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('course/savePay')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('course/savePay')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('course/savePay')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:04:37 --> Undefined index: id_course
+in APPPATH\Views\user-side\success_upload.php on line 157.
+ 1 APPPATH\Views\user-side\success_upload.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_course', 'APPPATH\\Views\\user-side\\success_upload.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\success_upload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/success_upload', [], true)
+ 5 APPPATH\Controllers\Course.php(163): view('user-side/success_upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:09:01 --> Call to a member function getName() on null
+in APPPATH\Controllers\Course.php on line 132.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:09:55 --> Call to a member function getName() on null
+in APPPATH\Controllers\Course.php on line 132.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:12:40 --> Undefined variable: userNow
+in APPPATH\Controllers\Course.php on line 144.
+ 1 APPPATH\Controllers\Course.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userNow', 'APPPATH\\Controllers\\Course.php', 144, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:12:49 --> Undefined variable: course
+in APPPATH\Controllers\Course.php on line 145.
+ 1 APPPATH\Controllers\Course.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: course', 'APPPATH\\Controllers\\Course.php', 145, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:33 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:50 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:51 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:52 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:53 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:54 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:17:57 --> Undefined variable: sign
+in APPPATH\Views\user-side\payment.php on line 146.
+ 1 APPPATH\Views\user-side\payment.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Views\\user-side\\payment.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user-side\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user-side/payment', [], true)
+ 5 APPPATH\Controllers\Course.php(94): view('user-side/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:24:21 --> Undefined variable: sign
+in APPPATH\Controllers\Course.php on line 91.
+ 1 APPPATH\Controllers\Course.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Controllers\\Course.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->payment('10')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 20:25:59 --> Undefined variable: sign
+in APPPATH\Controllers\Course.php on line 142.
+ 1 APPPATH\Controllers\Course.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sign', 'APPPATH\\Controllers\\Course.php', 142, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Course->savePay()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 20:51:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-21 20:51:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\courseModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(30): App\Models\courseModel->getCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

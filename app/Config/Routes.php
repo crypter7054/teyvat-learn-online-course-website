@@ -44,12 +44,11 @@ $routes->get('/', 'Home::index');
 
 // routes courses
 $routes->get('/course', 'Course::index');
-$routes->get('/course/create', 'Course::create');
-$routes->get('/course/save/(:num)', 'Course::save/$1');
-$routes->get('/course/delete/(:num)', 'Course::delete/$1');
-$routes->get('/course/update/(:num)', 'Course::update/$1');
+$routes->get('/course/savePay/(:num)', 'Course::savePay/$1');
+$routes->get('/course/back', 'Course::back');
 $routes->get('/detail/(:num)', 'Course::detail/$1');
-$routes->get('/checkout', 'Course::checkout');
+$routes->get('/detail/payment/(:num)', 'Course::payment/$1');
+$routes->get('/detail/payment/checkout/(:num)', 'Course::checkout/$1');
 
 // routes about
 $routes->get('/about', 'About::index');
@@ -64,7 +63,8 @@ $routes->get('/user/save/(:num)', 'User::save/$1');
 $routes->post('/user/process', 'User::process');
 $routes->get('/user/logout', 'User::logout');
 $routes->get('/user/profile/(:num)', 'User::displayProfile/$1');
-// $routes->get('/user/profile/(:num)/(:num)', 'User::displayProfile/$1/$1');
+$routes->get('/user/profile/detail/(:num)', 'Course::detail/$1');
+$routes->get('/detail/profile/(:num)', 'User::displayProfile/$1');
 $routes->get('/user/storePhoto', 'User::storePhoto');
 
 // routes profile

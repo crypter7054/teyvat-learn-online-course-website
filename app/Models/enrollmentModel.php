@@ -9,27 +9,32 @@ class enrollmentModel extends Model
     protected $table      = 'enrollment';
     protected $primaryKey = 'id_enroll';
     // protected $returnType = 'opject';
-    protected $allowedFields = ['id_enroll', 'nama_course', 'photo_course', 'category', 'videos', 'price'];
+    protected $allowedFields = ['id_enroll', 'nama_course', 'photo_course', 'category', 'videos', 'price', 'id_course', 'id_user'];
 
-    function getEnroll(){
+    function getEnroll($id_user){
         return $this->db->table('enrollment')
         ->join('user', 'user.id_user = enrollment.id_user')
         ->join('course', 'course.id_course = enrollment.id_course')
+        ->where('enrollment.id_user', $id_user)
         ->get()->getResultArray();
     }
 
-
-    public function getEnrollCourse($id_user)
-    {
-        return $photo;
+    function checkCourse($id_course){
+        return $this->db->table('enrollment')
+        ->join('user', 'user.id_user = enrollment.id_user')
+        ->join('course', 'course.id_course = enrollment.id_course')
+        ->where('enrollment.id_course', $id_course)
+        ->get()->getResultArray();
     }
 
-    // public function getEnrollCourse2($id_enroll)
-    // {
-    //     $photo = $this->where('id_enroll', $id_enroll)->findColumn('id_course');
-    //     return $photo;
-    // }
-    
+    function checkUser($id_user){
+        return $this->db->table('enrollment')
+        ->join('user', 'user.id_user = enrollment.id_user')
+        ->join('course', 'course.id_course = enrollment.id_course')
+        ->where('enrollment.id_user', $id_user)
+        ->get()->getResultArray();
+    }
+
     // update
     public function updateEnroll($id, $data)
     {

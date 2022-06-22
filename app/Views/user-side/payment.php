@@ -96,7 +96,7 @@
             <?php $session = session(); if ($session->has('email')) : ?>
               <div class='hidden sm:flex sm:flex-row'>
                 
-              <a href='<?php $user; echo "user/profile/{$user['id_user']}"; ?>' class='mr-3'>
+              <a href='#' class='mr-3'>
                 <?php $user; ?>
                 
                 <?php $phototemp = $user['photo']; if ($phototemp == null) : ?>
@@ -137,13 +137,16 @@
         <div class="w-[35%]">
             <div class="flex flex-col w-full pt-24">
                 <h1 class="text-3xl font-medium font-serif">Checkout</h1>
-
+                  
                 <div class="px-2 border w-[60%] border-dashed mt-4 font-serif py-3 border-gray-700">
                     <h1 class="text-sky-500"> Account Number : 2308 6673 3111</h1>
                 </div>
                 <h2 class="text-xl font-medium font-serif mt-4">Billing Address</h2>
-                <form action="proses_upload.php" method="post" enctype="multipart/form-data" class="flex flex-col justify-start items-start w-[70%]">
-                    <!-- FOTO -->
+
+                <form action="<?php echo base_url() ?>/course/savePay" method="post" enctype="multipart/form-data" class="flex flex-col justify-start items-start w-[70%]">
+                
+                <?= csrf_field(); ?> 
+                  <!-- FOTO -->
                     <div class="flex flex-col items-start ">
                         <div>
                             <label class="after:content-['*'] after:ml-0.3 after:text-red-500 block text-sm font-medium text-slate-700 mt-6 mb-2"> Upload Proof of Payment </label>
@@ -155,7 +158,7 @@
                                 <div class="flex text-sm text-gray-600 font-medium">
                                   <label for="foto" class="text-black relative cursor-pointer bg-white rounded-md font-medium flex flex-row items-center pl-20 my-2">
                                     <!-- <span>Upload</span> -->
-                                    <input id="fupload" name="fupload" type="file" required>
+                                    <input id="pupload" name="pupload" type="file" required>
                                 </div>
                                 <p class="text-xs text-gray-500">PNG, JPG, JPEG, WEBP, SVG maks 10MB</p>
                               </div>
@@ -163,7 +166,7 @@
                           </div>
             
                         <div class="bg-gray-50 mt-5">
-                            <input name="upload" type="submit" id="upload" class="inline-flex justify-start py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500" value="Upload" />
+                            <input name="up" type="submit" id="up" class="inline-flex justify-start py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500" value="Upload" />
                         </div>
                     </div>
                 </form>
@@ -173,6 +176,8 @@
         <div class="w-[35%] bg-sky-100 pt-24 h-screen">
             <div class="flex flex-col px-6 w-[70%] mx-12">
                 <h1 class="text-3xl font-medium font-serif">Summary</h1>
+                
+                <?php $course; ?>
                 <div class="flex flex-row justify-between border-b border-gray-400 pb-4">
                     <div class="mt-4 space-y-2">
                         <p>Original Price:</p>
@@ -180,19 +185,19 @@
                     </div>
 
                     <div class="mt-4 space-y-2">
-                        <p>Rp349,000</p>
-                        <p>Rp0</p>
+                        <p>$<?= $course['price']; ?></p>
+                        <p>$0</p>
                     </div>
                 </div>
 
                 <div class="flex flex-row mt-4 justify-between mb-4">
                     <h1>Total Price</h1>
-                    <h1>Rp159,000</h1>
+                    <h1>$<?= $course['price']; ?></h1>
                 </div>
 
                 <div class="flex flex-row">
                     <div class="py-3 text-left w-full ">
-                        <a href="<?php echo base_url() ?>/home" name="login" type="submit" class="inline-flex justify-center py-6 px-4 border border-transparent shadow-sm text-md rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-sky-500 w-full "> Complete Checkout </a>
+                        <a href="<?php echo "checkout/{$course['id_course']}"; ?>" name="login" type="submit" class="inline-flex justify-center py-6 px-4 border border-transparent shadow-sm text-md rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-sky-500 w-full "> Complete Checkout </a>
                     </div>
                 </div>
             </div>

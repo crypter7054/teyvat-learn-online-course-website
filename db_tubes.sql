@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 21, 2022 at 02:05 AM
+-- Generation Time: Jun 22, 2022 at 03:42 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -71,7 +71,9 @@ INSERT INTO `course` (`id_course`, `nama_course`, `photo_course`, `description`,
 (12, 'The Complete 2022 Web Development Bootcamp', 'course7.png', 'Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps', 32, 'Programming', 23, 'Angela Yu'),
 (13, 'Laravel 9 - Build Complete Inventory Management', 'course8.jpg', 'In This Course, You Will Build Two Different Projects With Laravel 9 including Inventory Management System A-Z', 33, 'Programming', 20, 'Kazi Ariyan'),
 (20, 'Tailwind CSS From Scratch | Learn By Projects', 'course9.png', 'Build great looking layouts fast and efficiently using Tailwind CSS utility classes', 45, 'Programming', 23, 'Brad Traversy'),
-(21, 'Organize your Personal & Work Life Ease', 'course10.png', 'Learn all that you need to know to get started with the Notion software', 15, 'Self Development', 11, 'Janosch Herman');
+(23, 'Zapier 101: Automate your work', 'course11.png', 'Get rid of tedious tasks & amplify your work through automation', 25, 'Productivity', 22, 'Janosch Herman'),
+(24, 'Master Notion - Beginner to Advanced', 'course12.jpg', 'Learn how to use Notion and create tools to organize your personal and work life.', 40, 'Productivity', 34, 'Jerad Hill'),
+(25, 'Investing In Stocks The Complete Course', 'course13.jpg', 'Master Stock Market Investing & Trading in the Stock Market. Top Instructor & Millionaire Investor. Investing & Trading', 54, 'Finance', 15, 'Steve Ballinger');
 
 -- --------------------------------------------------------
 
@@ -85,13 +87,25 @@ CREATE TABLE `enrollment` (
   `id_course` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data for table `enrollment`
+-- Table structure for table `payment`
 --
 
-INSERT INTO `enrollment` (`id_enroll`, `id_user`, `id_course`) VALUES
-(1, 1, 9),
-(2, 1, 20);
+CREATE TABLE `payment` (
+  `id_payment` int(11) NOT NULL,
+  `photo_payment` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `payment`
+--
+
+INSERT INTO `payment` (`id_payment`, `photo_payment`) VALUES
+(20, 'mikasa.jpg'),
+(21, 'course10.png'),
+(24, 'course9.png');
 
 -- --------------------------------------------------------
 
@@ -114,8 +128,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id_user`, `fname`, `lname`, `email`, `password`, `photo`) VALUES
 (1, 'Yosafat', '.', 'yosafatcrypter@gmail.com', '123', '9cc37ed30024a6654c754d027f002177.jpg'),
-(18, 'Clarin', 'Moriatry', 'clarinnn@gmail.com', '123', 'rean.jpg'),
-(19, 'Yos', '.', 'test@gmai.com', '123', '');
+(18, 'Clarin', 'Moriatry', 'clarinnn@gmail.com', '123', 'rean.jpg');
 
 --
 -- Indexes for dumped tables
@@ -142,6 +155,12 @@ ALTER TABLE `enrollment`
   ADD KEY `id_user` (`id_user`);
 
 --
+-- Indexes for table `payment`
+--
+ALTER TABLE `payment`
+  ADD PRIMARY KEY (`id_payment`);
+
+--
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -162,19 +181,25 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `course`
 --
 ALTER TABLE `course`
-  MODIFY `id_course` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id_course` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `enrollment`
 --
 ALTER TABLE `enrollment`
-  MODIFY `id_enroll` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_enroll` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+
+--
+-- AUTO_INCREMENT for table `payment`
+--
+ALTER TABLE `payment`
+  MODIFY `id_payment` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- Constraints for dumped tables

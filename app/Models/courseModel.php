@@ -20,6 +20,11 @@ class courseModel extends Model
         return $this->where(['id_course' => $id_course])->first();
     }
 
+    public function getCourseById($id_course)
+    {
+        return $this->where(['id_course' => $id_course])->first();
+    }
+
     public function getCourseLogin($username)
     {
         return $this->where(['username' => $username])->first();

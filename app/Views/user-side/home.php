@@ -9,7 +9,7 @@
     <?php $session = session(); if ($session->has('email')) : ?>
       
       <title>
-        <?php echo "Welcome - {$user['fname']}" ?>
+        <?php echo "Home - {$user['fname']}" ?>
       </title>
 
       <?php else : ?>

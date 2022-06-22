@@ -132,7 +132,9 @@
     <!-- END OF NAVBAR -->
     
     <!-- HERO SECTION -->
-    <div class="flex flex-col pt-4 sm:pt-16 items-center pb-2">
+    <div class="flex flex-col w-full items-center">
+
+    <div class="flex flex-col w-full pt-4 sm:pt-16 items-center pb-2 ">
         <div class="border mt-10 rounded-xl p-10 w-1/2 flex flex-col items-center">
 
             <div class="text-2xl text-center text-gray-600">Profile</div>
@@ -155,7 +157,7 @@
               
               <!-- EMAIl -->
               <div class='text-center p-2'>
-                <h1 class='text-xl mb-2'><?php echo"{$user['email']}" ?></h1>
+                <h1 class='sm:text-xl text-md mb-2'><?php echo"{$user['email']}" ?></h1>
               </div>
     
             <!-- FORM -->
@@ -190,16 +192,17 @@
 
     <!-- ENROLLMENT -->
     <div class="flex flex-col pt-4 sm:pt-0 items-center pb-16">
-        <div class="border mt-10 rounded-xl p-10 w-1/2 flex flex-col items-center">
+        <div class="border mt-10 rounded-xl w-1/2 flex flex-col ">
+        <h1 class="text-2xl font-semibold text-center mt-12">Enrolled Courses</h1>
 
-        <div class=" flex sm:flex-wrap flex-nowrap items-center sm:flex-row flex-col justify-start">
+        <div class=" flex sm:flex-wrap flex-nowrap items-center sm:flex-row flex-col justify-around mt-16">
             <!-- COURSE -->
             <?php foreach ($enroll as $row) :
             $ini = $row['photo_course']; 
             // dd($enroll)
             ;?>
 
-            <a href= "<?php echo "detail/{$row['id_course']}"; ?>" class="mx-6 rounded-2xl w-[15rem] sm:w-[16rem] bg-white mb-12 group border hover:-translate-y-5 border-sky-100 hover:bg-gradient-to-br hover:from-sky-300 hover:to-sky-500 duration-300 delay-100 flex flex-col items-center hover:ring-1 hover:ring-offset-4">
+            <a href= "<?php echo "detail/{$row['id_course']}"; ?>" class="rounded-2xl w-[15rem] sm:w-[16rem] bg-white mb-12 group border hover:-translate-y-5 border-sky-100 hover:bg-gradient-to-br hover:from-sky-300 hover:to-sky-500 duration-300 delay-100 flex flex-col items-center hover:ring-1 hover:ring-offset-4">
               <div class="sm:w-[15rem] w-[14rem] h-[10rem]">
                 <img src="<?php echo base_url('public/file/'.$ini); ?>" alt="course1" class="w-full h-full opacity-[0.85] group-hover:opacity-100 duration-100 delay-75 rounded-t-xl rounded-b-sm sm:mt-2 mt-2">
               </div>
@@ -220,9 +223,15 @@
               </div>
               
               <div class="flex flex-row w-full item justify-between pt-3 pb-4 px-4">
+              <?php $sign; if ($sign != null) : ?>
+                
+                <?php else : ?>
+
                   <button id="login-button" class="w-[68%] text-sky-500 bg-white border border-sky-500 text-sm font-normal px-6 py-2 rounded-lg hover:ring-1 focus:outline-none focus:ring-1 hover:border-none hover:ring-white hover:ring-offset-1 focus:ring-offset-2 focus:ring-white duration-300 delay-75"> Enroll </button>
                   <h1 class=" bg-sky-400 border group-hover:bg-white duration-100 delay-75 group-hover:text-sky-500 group-hover:outline-none rounded-xl px-3 py-2 text-lg font-[500px] text-white tracking-wide">$<?= $row['price']; ?></h1>
-              </div>
+                  <?php endif; ?>
+                
+                </div>
             </a>
 
             <?php endforeach; ?>
@@ -231,6 +240,9 @@
         </div>
         </div>
     </div>
+
+    </div>
+
     <!-- END OF ENROLLMENT SECTION -->
 
 </body>

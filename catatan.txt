@@ -1,0 +1,25 @@
+Nama    : Yosafat
+NIM     : 2009929
+Prodi   : Ilmu Komputer - C2
+
+
+URL         : https://yooss7054.desainweb4c2.com/tubes/
+URL admin   : https://yooss7054.desainweb4c2.com/tubes/admin
+
+
+* Akun admin
+    username    : admin
+    password    : 123 
+
+
+* Perbaikan
+1.  [✅]  Folder structure
+2.  [✅]  Upload photo course (role admin)
+3.  [✅]  Fitur update course (role admin)
+4.  [✅]  Icon foto profile session (role user)
+5.  [✅]  Fitur pagination (role admin dan user)
+6.  [✅]  Verifikasi session saat checkout course (role user)
+9.  [✅]  Enrollment course koneksi database
+7.  [✅]  Tampilkan enrollment course pada halaman profile (role user)
+8.  [✅]  Setelah enrollment course, maka button enroll akan diganti menjadi keterangan enrolled
+10. [✅]  Halaman keterangan berhasil enroll course

@@ -184,11 +184,13 @@
                 </div>
     
                 <div class="flex flex-row w-full justify-end py-4 hilang">
-                    <a href="<?php echo base_url() ?>/checkout" 
-                    class="flex flex-row text-center items-center text-white bg-sky-500 border border-sky-500 text-sm font-medium px-5 py-2 rounded-md hover:bg-sky-600 focus:ring-1 focus:ring-offset-2 ring-sky-500 duration-300 delay-75">
-                         Enroll Course
-                     </a>
-
+                    <?php $sign; if ($sign != null) : ?>
+                    <div class="flex flex-row text-center items-center text-white bg-gray-400 border border-gray-400 text-sm font-medium px-5 py-2 rounded-md focus:ring-1 focus:ring-offset-2 ring-sky-500 duration-300 delay-75">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>  
+                    Enrolled
+                    </div>
                     <a href="#" onclick="window.print();" 
                     class="flex ml-4 flex-row items-center bg-sky-50 border text-sky-500 border-sky-500 text-sm font-medium px-2 py-2 rounded-md hover:bg-sky-100 duration-300 delay-75">
                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -196,8 +198,22 @@
                          </svg>
                          Download
                      </a>
+                  <?php else : ?>
+                    <a href="<?php $course; echo "payment/{$course['id_course']}"; ?>" 
+                    class="flex flex-row text-center items-center text-white bg-sky-500 border border-sky-500 text-sm font-medium px-5 py-2 rounded-md hover:bg-sky-600 focus:ring-1 focus:ring-offset-2 ring-sky-500 duration-300 delay-75">
+                         Enroll Course
+                     </a>
+                     <a href="#" onclick="window.print();" 
+                    class="flex ml-4 flex-row items-center bg-sky-50 border text-sky-500 border-sky-500 text-sm font-medium px-2 py-2 rounded-md hover:bg-sky-100 duration-300 delay-75">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                         </svg>
+                         Download
+                     </a>
+
+                <?php endif; ?>
+
                 </div>
-                
                 
               </div>
             </div>
